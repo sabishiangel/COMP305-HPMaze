@@ -114,7 +114,9 @@
     <Compile Include="Assets\_Imported Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\_Imported Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\_Imported Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\_Scripts\AnimationScript.cs" />
     <Compile Include="Assets\_Scripts\EnemyController.cs" />
+    <Compile Include="Assets\_Scripts\MenuScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Imported Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
