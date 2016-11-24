@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: 7b6e17499dae7c04da238e89c3dc992b
-timeCreated: 1479585552
+timeCreated: 1479877729
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_0
-    21300002: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_1
-    21300004: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_2
+    21300000: foot1
+    21300002: foot4
+    21300004: foot3
+    21300006: foot2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,39 +57,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_0
+      name: foot1
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 594
-        width: 493
-        height: 309
+        x: 2208
+        y: 0
+        width: 730
+        height: 915
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_1
+      name: foot4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 100
-        width: 450
-        height: 525
+        x: 4
+        y: 0
+        width: 730
+        height: 915
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: cliparts-for-your-documents-web-sites-art-projects-or-presentations-GMLTKe-clipart_2
+      name: foot3
       rect:
         serializedVersion: 2
-        x: 555
-        y: 103
-        width: 450
-        height: 525
+        x: 739
+        y: 1
+        width: 730
+        height: 915
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foot2
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 0
+        width: 730
+        height: 915
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
