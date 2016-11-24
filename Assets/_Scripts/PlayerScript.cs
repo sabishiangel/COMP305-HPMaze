@@ -16,12 +16,15 @@ public class PlayerScript : MonoBehaviour {
     public Text scoreLabel;
     public Text gameOverLabel;
     public Text finalLabel;
+    public Text victory;
     public Button restartButton;
 
     [Header("Game Objects")]
     public GameObject Dementor;
     public GameObject Beans;
     public GameObject Player;
+    public GameObject tree1;
+    public GameObject tree2;
 
     [Header("Music")]
     public AudioSource endMusic;
@@ -62,6 +65,7 @@ public class PlayerScript : MonoBehaviour {
         gameOverLabel.gameObject.SetActive(false);
         finalLabel.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(false);
+        victory.gameObject.SetActive(false);
 
     }
 
@@ -78,6 +82,16 @@ public class PlayerScript : MonoBehaviour {
             otherGameObject.gameObject.SetActive(false);
             this.scoreValue += 10;
             beans.Play();
+        }
+
+        if (otherGameObject.gameObject.name == "Tree") //cheat to transport to other tree
+        {
+            transform.position = new Vector3(tree2.gameObject.transform.position.x, tree2.gameObject.transform.position.y + 5, tree2.gameObject.transform.position.z - 3);
+        }
+
+        if (otherGameObject.gameObject.name == "Tree 1")//cheat to transport back to other tree, but on the top of the maze
+        {
+            transform.position = new Vector3(tree1.gameObject.transform.position.x, tree1.gameObject.transform.position.y + 5, tree1.gameObject.transform.position.z - 3);
         }
 
         if (otherGameObject.CompareTag("Enemy")) 
